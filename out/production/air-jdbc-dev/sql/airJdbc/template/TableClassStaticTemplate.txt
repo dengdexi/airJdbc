@@ -1,0 +1,22 @@
+package %package%;
+
+import sql.airJdbc.data.TableMap;
+
+/**
+ * Data from table: %table%
+ * Create by sql.airJdbc.SqlService
+ * At date: %date%
+ * @see sql.airJdbc.service.SqlService#exportTableData(String, String, String, boolean)
+ */
+public class %class% extends TableMap {
+    /**
+     * Column names in table
+     */
+#    /** %columnType% **/
+    public static String %FIELD%%TYPE% = "%field%";#
+
+    public %class%(){
+        super();
+        this.primaryKey = "%primaryKey%";
+    }
+}

@@ -2,15 +2,16 @@
 update@2023.8.22
 
 #### introduce
-A lighter, simpler, and more user-friendly OOP JDBC framework, replacing native JDBC with cumbersome code, as well as frameworks such as Mybatis and Hibernate with cumbersome configuration
+High performance, lighter, and simpler to use OOP JDBC framework, replacing native JDBC with cumbersome code, as well as frameworks such as Mybatis and Hibernate with cumbersome configuration
 
 #### characteristic
 1. Insert, delete, update, and select can be completed with just one sentence of code
-2. Support OOP programming
-3. Support SQL statement programming
-4. Support exporting data table mapping Java class objects
-5. Support easy completion of multithreaded tasks through multiple instances
-6. Supports MariaDB/MySql, Oracle, and SqlServer databases, and will support more mainstream databases in the future
+2. High performance, batch insertion of 10000 records takes only 37-53 ms
+3. Support OOP programming
+4. Support SQL statement programming
+5. Support exporting data tables to map Java class objects
+6. Support for easily completing multithreaded tasks through multiple instances
+7. Supports MariaDB/MySql, Oracle, and SqlServer databases, and will support more mainstream databases in the future
 
 
 #### Installation Tutorial

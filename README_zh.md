@@ -1,16 +1,17 @@
-# airJdbc
+# airJdbc 
 update@2023.8.22
 
 #### 介绍
-更轻快，更简单易用的 OOP JDBC 框架，替代代码繁琐的原生 JDBC，以及配置繁琐的 Mybatis，Hibernate 等框架
+高性能，更轻快，更简单易用的 OOP JDBC 框架，替代代码繁琐的原生 JDBC，以及配置繁琐的 Mybatis，Hibernate 等框架
 
 #### 特性
 1.  增删改查只需要一句代码即可完成
-2.  支持使用 OOP 编程
-3.  支持 sql 语句编程
-4.  支持导出数据表映射 Java 类对象
-5.  支持通过多实例轻松完成多线程任务
-6.  支持 MariaDB/MySql, Oracle, SqlServer 数据库，未来将支持更多主流数据库
+2.  高性能，批量插入10000条数据只需要 37-53 ms
+3.  支持使用 OOP 编程
+4.  支持 sql 语句编程
+5.  支持导出数据表映射 Java 类对象
+6.  支持通过多实例轻松完成多线程任务
+7.  支持 MariaDB/MySql, Oracle, SqlServer 数据库，未来将支持更多主流数据库
 
 
 #### 安装教程
@@ -99,7 +100,7 @@ Object result = SqlService.getInstance().insertBatch(list);
 SqlService.getInstance().exportTableData("src/","src/tableMaps/mariadb/", "Map", false);
 ```
 
-如上述表 user_login 导出 UserLoginMap.java:
+  如上述表 user_login 导出 UserLoginMap.java:
 ```
 package tableMaps.mariadb;
 
@@ -174,4 +175,3 @@ new Thread(new Runnable(){
             }
         }).run();
 ```
-

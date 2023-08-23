@@ -80,7 +80,7 @@ Object result = SqlService.getInstance().insertOne(map);
 ```
 
 ```
-//insert Batch insertion of data, with mainstream computer configurations requiring only 10000 pieces of data to be inserted 37-53 ms
+//insert Batch insertion of data, Mainstream computer configurations require only 37-53 ms to insert 10000 records
 ArrayList<TableMap> list = new ArrayList<>();
         for (int i = 0; i < 10000; i++) {
             TableMap map = new TableMap ();

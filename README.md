@@ -12,6 +12,7 @@ High performance, lighter, and simpler to use OOP JDBC framework, replacing nati
 5. Support exporting data tables to map Java class objects
 6. Support for easily completing multithreaded tasks through multiple instances
 7. Supports MariaDB/MySql, Oracle, and SqlServer databases, and will support more mainstream databases in the future
+8. Reduce the amount of jdbc code by 80%
 
 
 #### Installation Tutorial
